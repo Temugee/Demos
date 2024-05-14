@@ -1,0 +1,785 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/obj/Debug/net8.0/compressed/kkd41rgzau.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/obj/Debug/net8.0/scopedcss/bundle/PhoneShopClient.styles.css",
+      "PackagePath": "staticwebassets/PhoneShopClient.styles.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap.css",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/bootstrap/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/bootstrap/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/bootstrap/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/bootstrap/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/bootstrap/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/bootstrap/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/bootstrap/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/bootstrap/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/js/bootstrap.js",
+      "PackagePath": "staticwebassets/bootstrap/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/bootstrap/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/bootstrap/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/bootstrap/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_accordion.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_accordion.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_alert.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_alert.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_badge.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_badge.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_breadcrumb.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_breadcrumb.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_button-group.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_button-group.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_buttons.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_buttons.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_card.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_card.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_carousel.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_carousel.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_close.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_close.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_containers.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_containers.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_dropdown.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_dropdown.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_forms.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_forms.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_functions.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_functions.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_grid.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_grid.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_helpers.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_helpers.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_images.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_images.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_list-group.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_list-group.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_maps.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_maps.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_mixins.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_mixins.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_modal.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_modal.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_nav.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_nav.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_navbar.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_navbar.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_offcanvas.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_offcanvas.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_pagination.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_pagination.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_placeholders.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_placeholders.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_popover.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_popover.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_progress.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_progress.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_reboot.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_reboot.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_root.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_root.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_spinners.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_spinners.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_tables.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_tables.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_toasts.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_toasts.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_tooltip.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_tooltip.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_transitions.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_transitions.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_type.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_type.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_utilities.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_utilities.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_variables-dark.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_variables-dark.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/_variables.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/_variables.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/bootstrap-grid.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/bootstrap-grid.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/bootstrap-reboot.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/bootstrap-utilities.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/bootstrap.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/bootstrap.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/forms/_floating-labels.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/forms/_floating-labels.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/forms/_form-check.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/forms/_form-check.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/forms/_form-control.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/forms/_form-control.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/forms/_form-range.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/forms/_form-range.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/forms/_form-select.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/forms/_form-select.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/forms/_form-text.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/forms/_form-text.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/forms/_input-group.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/forms/_input-group.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/forms/_labels.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/forms/_labels.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/forms/_validation.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/forms/_validation.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/helpers/_clearfix.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/helpers/_clearfix.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/helpers/_color-bg.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/helpers/_color-bg.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/helpers/_colored-links.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/helpers/_colored-links.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/helpers/_focus-ring.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/helpers/_focus-ring.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/helpers/_icon-link.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/helpers/_icon-link.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/helpers/_position.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/helpers/_position.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/helpers/_ratio.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/helpers/_ratio.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/helpers/_stacks.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/helpers/_stacks.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/helpers/_stretched-link.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/helpers/_stretched-link.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/helpers/_text-truncation.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/helpers/_text-truncation.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/helpers/_visually-hidden.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/helpers/_visually-hidden.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/helpers/_vr.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/helpers/_vr.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_alert.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_alert.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_backdrop.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_backdrop.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_banner.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_banner.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_border-radius.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_border-radius.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_box-shadow.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_box-shadow.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_breakpoints.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_breakpoints.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_buttons.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_buttons.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_caret.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_caret.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_clearfix.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_clearfix.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_color-mode.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_color-mode.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_color-scheme.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_color-scheme.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_container.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_container.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_deprecate.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_deprecate.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_forms.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_forms.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_gradients.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_gradients.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_grid.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_grid.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_image.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_image.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_list-group.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_list-group.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_lists.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_lists.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_pagination.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_pagination.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_reset-text.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_reset-text.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_resize.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_resize.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_table-variants.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_table-variants.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_text-truncate.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_text-truncate.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_transition.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_transition.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_utilities.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_utilities.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/mixins/_visually-hidden.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/mixins/_visually-hidden.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/utilities/_api.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/utilities/_api.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/bootstrap/scss/vendor/_rfs.scss",
+      "PackagePath": "staticwebassets/bootstrap/scss/vendor/_rfs.scss"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/css/all.css",
+      "PackagePath": "staticwebassets/font-awesome/css/all.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/css/all.min.css",
+      "PackagePath": "staticwebassets/font-awesome/css/all.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/css/brands.css",
+      "PackagePath": "staticwebassets/font-awesome/css/brands.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/css/brands.min.css",
+      "PackagePath": "staticwebassets/font-awesome/css/brands.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/css/fontawesome.css",
+      "PackagePath": "staticwebassets/font-awesome/css/fontawesome.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/css/fontawesome.min.css",
+      "PackagePath": "staticwebassets/font-awesome/css/fontawesome.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/css/regular.css",
+      "PackagePath": "staticwebassets/font-awesome/css/regular.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/css/regular.min.css",
+      "PackagePath": "staticwebassets/font-awesome/css/regular.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/css/solid.css",
+      "PackagePath": "staticwebassets/font-awesome/css/solid.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/css/solid.min.css",
+      "PackagePath": "staticwebassets/font-awesome/css/solid.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/css/svg-with-js.css",
+      "PackagePath": "staticwebassets/font-awesome/css/svg-with-js.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/css/svg-with-js.min.css",
+      "PackagePath": "staticwebassets/font-awesome/css/svg-with-js.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/css/v4-font-face.css",
+      "PackagePath": "staticwebassets/font-awesome/css/v4-font-face.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/css/v4-font-face.min.css",
+      "PackagePath": "staticwebassets/font-awesome/css/v4-font-face.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/css/v4-shims.css",
+      "PackagePath": "staticwebassets/font-awesome/css/v4-shims.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/css/v4-shims.min.css",
+      "PackagePath": "staticwebassets/font-awesome/css/v4-shims.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/css/v5-font-face.css",
+      "PackagePath": "staticwebassets/font-awesome/css/v5-font-face.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/css/v5-font-face.min.css",
+      "PackagePath": "staticwebassets/font-awesome/css/v5-font-face.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/js/all.js",
+      "PackagePath": "staticwebassets/font-awesome/js/all.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/js/all.min.js",
+      "PackagePath": "staticwebassets/font-awesome/js/all.min.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/js/brands.js",
+      "PackagePath": "staticwebassets/font-awesome/js/brands.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/js/brands.min.js",
+      "PackagePath": "staticwebassets/font-awesome/js/brands.min.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/js/conflict-detection.js",
+      "PackagePath": "staticwebassets/font-awesome/js/conflict-detection.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/js/conflict-detection.min.js",
+      "PackagePath": "staticwebassets/font-awesome/js/conflict-detection.min.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/js/fontawesome.js",
+      "PackagePath": "staticwebassets/font-awesome/js/fontawesome.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/js/fontawesome.min.js",
+      "PackagePath": "staticwebassets/font-awesome/js/fontawesome.min.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/js/regular.js",
+      "PackagePath": "staticwebassets/font-awesome/js/regular.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/js/regular.min.js",
+      "PackagePath": "staticwebassets/font-awesome/js/regular.min.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/js/solid.js",
+      "PackagePath": "staticwebassets/font-awesome/js/solid.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/js/solid.min.js",
+      "PackagePath": "staticwebassets/font-awesome/js/solid.min.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/js/v4-shims.js",
+      "PackagePath": "staticwebassets/font-awesome/js/v4-shims.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/js/v4-shims.min.js",
+      "PackagePath": "staticwebassets/font-awesome/js/v4-shims.min.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/sprites/brands.svg",
+      "PackagePath": "staticwebassets/font-awesome/sprites/brands.svg"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/sprites/regular.svg",
+      "PackagePath": "staticwebassets/font-awesome/sprites/regular.svg"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/sprites/solid.svg",
+      "PackagePath": "staticwebassets/font-awesome/sprites/solid.svg"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/webfonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/font-awesome/webfonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/webfonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/font-awesome/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/webfonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/font-awesome/webfonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/webfonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/font-awesome/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/webfonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/font-awesome/webfonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/webfonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/font-awesome/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/webfonts/fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets/font-awesome/webfonts/fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/font-awesome/webfonts/fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets/font-awesome/webfonts/fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/js/dialog.js",
+      "PackagePath": "staticwebassets/js/dialog.js"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/resources/less-than.png",
+      "PackagePath": "staticwebassets/resources/less-than.png"
+    },
+    {
+      "Id": "/Users/tmg/Projects/BlazorDotnet8EcommercePhoneShopSolution/PhoneShopClient/wwwroot/resources/more-than.png",
+      "PackagePath": "staticwebassets/resources/more-than.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.PhoneShopClient.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.PhoneShopClient.props",
+      "PackagePath": "build\\PhoneShopClient.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.PhoneShopClient.props",
+      "PackagePath": "buildMultiTargeting\\PhoneShopClient.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.PhoneShopClient.props",
+      "PackagePath": "buildTransitive\\PhoneShopClient.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

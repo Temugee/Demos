@@ -1,0 +1,159 @@
+﻿@page "/info/itemlist"
+@using System.Text.Json
+@inject IJSRuntime JsRuntime
+@inject HttpClient Http
+@inject IJSRuntime JsRuntime
+@*<h3>TodoApp</h3>
+<p>
+    <input @bind="newNotes" />&nbsp;
+    <button @onclick="addNewNotes">Add Notes</button>
+</p>
+@foreach (var note in notes)
+{
+    <p>
+        <b>@note.description</b>
+        <button @onclick="()=>deleteNotes(note.id)">Delete Notes</button>
+    </p>
+}*@
+<h3>Барааны жагсаалт</h3>
+<h4 style="color: blue;">
+    <a href="/info/itemcreate">Нэмэх</a>
+</h4>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Код</th>
+            <th>Нэр</th>
+            <th>Бар код</th>
+            <th>Үнэ</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (items == null)
+        {
+            <tr>
+                <td colspan="8" align="center">Хоосон байна</td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var item in items)
+            {
+                <tr>
+                    <td width="20%">@item.Id</td>
+                    <td width="30%">@item.Name</td>
+                    <td width="30%">@item.Barcode</td>
+                    <td width="20%">@item.Price.ToString("##,##0")</td>
+                    <td width="7%">
+                        <a href="@GetEditItemUrl(@item)" class="btn btn-primary" tabindex="-1" role="button" ariadisabled="true">
+                            Засах
+                        </a>
+                    </td>
+                    <td width="8%">
+                        <a class="btn btn-danger" tabindex="-1" role="button" aria-disabled="true" @onclick="_ => deleteNotes(item.Id)">
+                            Устгах
+                        </a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+@*@code {
+    public string newNotes = "";
+    public class Notes
+    {
+        public int id { get; set; }
+        public string description { get; set; }
+    }
+    string API_URL = "http://localhost:5070/";
+    private IEnumerable<Notes> notes = Array.Empty<Notes>();
+    private async Task refreshList()
+    {
+        HttpClient httpClient = new HttpClient();
+        HttpResponseMessage response = await httpClient.GetAsync(API_URL + "api/todoapp/GetNotes");
+        httpClient.Dispose();
+        using var responseStream = await response.Content.ReadAsStreamAsync();
+        notes = await JsonSerializer.DeserializeAsync<IEnumerable<Notes>>(responseStream);
+    }
+    private async Task addNewNotes()
+    {
+        var formData = new MultipartFormDataContent();
+        formData.Add(new StringContent(newNotes), "newNotes");
+        HttpClient httpClient = new HttpClient();
+        HttpResponseMessage response = await httpClient.PostAsync(API_URL + "api/todoapp/AddNotes", formData);
+        httpClient.Dispose();
+        using var responseStream = await response.Content.ReadAsStreamAsync();
+        string res = response.Content.ReadAsStringAsync().Result;
+        await JsRuntime.InvokeVoidAsync("alert", res);
+        await this.refreshList();
+    }
+    private async Task deleteNotes(int id)
+    {
+
+        HttpClient httpClient = new HttpClient();
+        HttpResponseMessage response = await httpClient.DeleteAsync(API_URL + "api/todoapp/DeleteNotes?id=" + id);
+        httpClient.Dispose();
+        using var responseStream = await response.Content.ReadAsStreamAsync();
+        string res = response.Content.ReadAsStringAsync().Result;
+        await JsRuntime.InvokeVoidAsync("alert", res);
+        await this.refreshList();
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        await this.refreshList();
+    }
+}*@
+
+
+
+
+
+
+
+
+@code {
+    public class Item
+    {
+        public string PkId { get; set; }
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public string Barcode { get; set; }
+        public decimal Price { get; set; }
+    }
+    string API_URL = "http://localhost:5070/";
+
+    private IEnumerable<Item> items = Array.Empty<Item>();
+    private async Task refreshList()
+    {
+        HttpClient httpClient = new HttpClient();
+        HttpResponseMessage response = await httpClient.GetAsync(API_URL + "api/info/GetItems");
+        httpClient.Dispose();
+        using var responseStream = await response.Content.ReadAsStreamAsync();
+        items = await JsonSerializer.DeserializeAsync<IEnumerable<Item>>(responseStream);
+    }
+    private async Task deleteNotes(string id)
+    {
+
+        HttpClient httpClient = new HttpClient();
+        HttpResponseMessage response = await httpClient.DeleteAsync(API_URL + "api/info/DeleteItems?id=" + id);
+        httpClient.Dispose();
+        using var responseStream = await response.Content.ReadAsStreamAsync();
+        string res = response.Content.ReadAsStringAsync().Result;
+        await JsRuntime.InvokeVoidAsync("alert", res);
+        await this.refreshList();
+    }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        await this.refreshList();
+    }
+    private string GetEditItemUrl(Item item)
+    {
+        return $"info/itemedit/{item.PkId}";
+    }
+
+}

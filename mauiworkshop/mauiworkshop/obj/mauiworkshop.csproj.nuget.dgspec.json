@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tmg/Projects/mauiworkshop/mauiworkshop/mauiworkshop.csproj": {}
+  },
+  "projects": {
+    "/Users/tmg/Projects/mauiworkshop/mauiworkshop/mauiworkshop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tmg/Projects/mauiworkshop/mauiworkshop/mauiworkshop.csproj",
+        "projectName": "mauiworkshop",
+        "projectPath": "/Users/tmg/Projects/mauiworkshop/mauiworkshop/mauiworkshop.csproj",
+        "packagesPath": "/Users/tmg/.nuget/packages/",
+        "outputPath": "/Users/tmg/Projects/mauiworkshop/mauiworkshop/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/Users/tmg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-ios"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/aUawcNe3Xc6YKBgkgccVB9JRjh2GgxYt3fL7HsnrcI4IuNghgG/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-ios17.2": {
+            "targetAlias": "net8.0-ios",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-ios17.2": {
+          "targetAlias": "net8.0-ios",
+          "dependencies": {
+            "DevExpress.Maui.Charts": {
+              "target": "Package",
+              "version": "[23.2.3, )"
+            },
+            "DevExpress.Maui.DataGrid": {
+              "target": "Package",
+              "version": "[23.2.3, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Maui.Controls.Compatibility": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.iOS": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "iossimulator-arm64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

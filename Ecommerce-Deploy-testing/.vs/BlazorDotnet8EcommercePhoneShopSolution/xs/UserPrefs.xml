@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{FAEAFB78-54F1-47F7-A306-6BEE3F184E34}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PhoneShopClient/Pages/ProductPages/RecommendedPage.razor">
+    <Files>
+      <File FileName="PhoneShopClient/Pages/ProductPages/RecommendedPage.razor" Line="66" Column="28" />
+      <File FileName="PhoneShopClient/Pages/ProductPages/ProductListHomePage.razor" />
+      <File FileName="PhoneShopClient/Pages/ProductPages/ProductListPage.razor" />
+      <File FileName="PhoneShopClient/Pages/ProductPages/BannerPage.razor" />
+      <File FileName="PhoneShopClient/Services/ClientServices.cs" />
+      <File FileName="PhoneShopClient/Services/IProductService.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BlazorDotnet8EcommercePhoneShopSolution" expanded="True">
+            <Node name="PhoneShopClient" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Layout" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="CategoryPages" expanded="True" />
+                <Node name="ProductPages" expanded="True">
+                  <Node name="ProductListPage.razor" expanded="True" />
+                  <Node name="RecommendedPage.razor" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="PhoneShopSharedLibrary" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Responses" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PhoneShopServer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

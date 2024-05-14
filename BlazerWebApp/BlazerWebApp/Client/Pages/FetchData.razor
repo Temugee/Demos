@@ -1,0 +1,198 @@
+﻿@page "/fetchdata"
+@using BlazerWebApp.Shared
+@inject IJSRuntime JsRuntime
+@inject HttpClient Http
+@inject WeatherForecastService ForecastServices
+@inject NavigationManager navigationManager
+@using BlazerWebApp.Shared
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.JSInterop
+```
+<PageTitle>Weather forecast</PageTitle>
+
+<h1>Барааны жагсаалт Devexpress</h1>
+
+
+
+
+<DxGrid Data="@items?.ToArray()"
+        ShowGroupPanel="true"
+        ShowFilterRow="true"
+        DataItemDeleting="onDataItemDeleting"
+        EditModelSaving="OnEditModelSaving"
+        CustomizeEditModel="Grid_CustomizeEditModel"
+        >
+    <Columns>
+        <DxGridCommandColumn Width="200px" />
+        <DxGridDataColumn FieldName="PkId" Caption="PkId" DisplayFormat="D" />
+        <DxGridDataColumn FieldName="Id" Caption="Код" />
+        <DxGridDataColumn FieldName="Name" Caption="Нэр" Width="120px" />
+        <DxGridDataColumn FieldName="Barcode" Caption="Бар код" Width="120px" />
+        <DxGridDataColumn FieldName="Price" Caption="Үнэ" Width="120px" />
+    </Columns>
+    <TotalSummary>
+        <DxGridSummaryItem FieldName="Id" SummaryType="GridSummaryItemType.Min" ValueDisplayFormat="D" />
+        <DxGridSummaryItem FooterColumnName="Price" SummaryType="GridSummaryItemType.Count" />
+    </TotalSummary>
+    <EditFormTemplate Context="EditFormContext">
+        @{
+            var forecast = (Item)EditFormContext.EditModel;
+        }
+        <DxFormLayout>
+            @*<DxFormLayoutItem Caption="PkId">
+                <DxTextBox @bind-Text="@forecast.PkId" />
+            </DxFormLayoutItem>*@
+            <DxFormLayoutItem Caption="Id">
+                <DxTextBox @bind-Text="@forecast.Id" />
+            </DxFormLayoutItem>
+            <DxFormLayoutItem Caption="Name">
+                <DxTextBox @bind-Text="@forecast.Name" />
+            </DxFormLayoutItem>
+            <DxFormLayoutItem Caption="Barcode">
+                <DxTextBox @bind-Text="@forecast.Barcode" />
+            </DxFormLayoutItem>
+            <DxFormLayoutItem Caption="Price">
+                <DxSpinEdit @bind-Value="@forecast.Price" />
+            </DxFormLayoutItem>
+        </DxFormLayout>
+    </EditFormTemplate>
+</DxGrid>
+
+
+
+@code {
+    List<WeatherForecast> Data { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Data = ForecastServices.GetForecast();
+
+        // Log the Ugug (if you have logging configured)
+        foreach (var forecast in Data)
+        {
+            Console.WriteLine($"Forecast: {forecast.CloudCover}");
+        }
+    }
+
+}
+
+
+@code {
+
+    private List<Item>? items;
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetItems();
+
+    }
+
+    private async Task GetItems()
+    {
+        try
+        {
+            items = (await Http.GetFromJsonAsync<Item[]>("/api/info/getitems"))?.ToList();
+
+            // Log the items (if you have logging configured)
+            foreach (var item in items)
+            {
+                Console.WriteLine($"Item: {item.Name}");
+            }
+        }
+        catch (Exception ex)
+        {
+            // Log or handle the exception as needed
+            Console.WriteLine($"Error retrieving items: {ex.Message}");
+        }
+    }
+
+    private async Task DeleteItem(Item item)
+    {
+        bool confirmed = await JsRuntime.InvokeAsync<bool>("confirm", $"{item.Id} - кодтой барааг устгахдаа итгэлтэй байна уу?");
+        if (confirmed)
+        {
+            var result = await Http.DeleteAsync($"/api/info/deleteitem/{item.PkId}");
+            if (result != null && result.StatusCode == System.Net.HttpStatusCode.OK)
+            {
+                await GetItems();
+                StateHasChanged();
+            }
+        }
+    }
+
+
+    void onDataItemDeleting(GridDataItemDeletingEventArgs e)
+    {
+        items.Remove(e.DataItem as Item);
+        Console.WriteLine("checking:" + Data);
+        var deletedItem = e.DataItem as BlazerWebApp.Shared.Item;
+        DeleteItem(deletedItem);
+    }
+    void Grid_CustomizeEditModel(GridCustomizeEditModelEventArgs e)
+    {
+        //if (e.EditModel != null)
+        //    if (e.IsNew)
+        //    {
+
+        //        var newSupplier = (Item)e.EditModel;
+        //        //newSupplier.Name = "DevExpress";
+        //        //newSupplier.Price = 5000;
+        //        //newSupplier.PkId = "9";
+        //        //newSupplier.Barcode = "303";
+        //        //newSupplier.Id = "033";
+        //        Http.PostAsJsonAsync("/api/info/saveitem", newSupplier);
+        //        Console.WriteLine("worked---------------");
+        //    }
+        //var editModel = (Item)e.EditModel;
+        //var dataItem = e.IsNew ? new Item() : (Item)e.DataItem;
+
+        //dataItem.PkId = editModel.PkId;
+        //dataItem.Id = editModel.Id;
+        //dataItem.Name = editModel.Name;
+        //dataItem.Barcode = editModel.Barcode;
+        //dataItem.Price = editModel.Price;
+        //Http.PostAsJsonAsync("/api/info/saveitem", editModel);
+    }
+    async Task OnEditModelSaving(GridEditModelSavingEventArgs e)
+    {
+        // This method is invoked when the EditForm is submitted.
+        var editModel = (Item)e.EditModel;
+        var dataItem = e.IsNew ? new Item() : (Item)e.DataItem;
+        Console.WriteLine("EditModel: " + editModel.PkId + ", " + editModel.Name + ", ...");
+        Console.WriteLine("DataItem: " + dataItem.PkId + ", " + dataItem.Name + ", ...");
+
+        dataItem.PkId = editModel.PkId;
+        dataItem.Id = editModel.Id;
+        dataItem.Name = editModel.Name;
+        dataItem.Barcode = editModel.Barcode;
+        dataItem.Price = editModel.Price;
+
+        if (e.IsNew)
+            items.Add(dataItem);
+
+
+        if (string.IsNullOrEmpty(editModel.PkId))
+        {
+            editModel.PkId = Guid.NewGuid().ToString();
+            Http.PostAsJsonAsync("/api/info/saveitem", editModel);
+
+        }else
+        {
+            var result = await Http.PostAsJsonAsync("/api/info/updateitem",editModel);
+        }
+
+
+
+
+        //Http.PostAsJsonAsync("/api/info/saveitem", editModel);
+        //Console.WriteLine("editModel.PkId" + editModel.PkId);
+        //Console.WriteLine("Result" + result);
+
+        //if (result != null && result.StatusCode == System.Net.HttpStatusCode.OK)
+        //{
+        //    navigationManager.NavigateTo("info/itemlist");
+        //}
+    }
+}

@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' ">
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' ">
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.1" PrivateAssets="all" />
+    <PackageReference Include="Syncfusion.Blazor.Navigations" Version="24.1.41" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="24.1.41" />
+    <PackageReference Include="Blazored.LocalStorage" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PhoneShopSharedLibrary\PhoneShopSharedLibrary.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Services\" />
+    <None Remove="Pages\CategoryPages\" />
+    <None Remove="Pages\ProductPages\" />
+    <None Remove="Pages\OtherPages\" />
+    <None Remove="Authentication\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="wwwroot\resources\" />
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="Pages\CategoryPages\" />
+    <Folder Include="Pages\ProductPages\" />
+    <Folder Include="Pages\OtherPages\" />
+    <Folder Include="Authentication\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\resources\" />
+    <Content Remove="wwwroot\js\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Pages\OtherPages\MessageDialog.razor">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

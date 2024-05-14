@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <BundleResource Include="Resources/Images/andrew_fuller.jpg" />
+    <BundleResource Include="Resources/Images/anne_dodsworth.jpg" />
+    <BundleResource Include="Resources/Images/janet_leverling.jpg" />
+    <BundleResource Include="Resources/Images/laura_callahan.jpg" />
+    <BundleResource Include="Resources/Images/margaret_peacock.jpg" />
+    <BundleResource Include="Resources/Images/michael_suyama.jpg" />
+    <BundleResource Include="Resources/Images/nancy_davolio.jpg" />
+    <BundleResource Include="Resources/Images/robert_king.jpg" />
+    <BundleResource Include="Resources/Images/steven_buchanan.jpg" />
+    <BundleResource Include="/Users/tmg/Projects/mauiworkshop/mauiworkshop/obj/Debug/net8.0-ios/resizetizer/sp/splash_FD93FBFAB6638381300AA442F29259671B4FAC57E95B188FE3F3903BEFEADC46.png" />
+    <BundleResource Include="/Users/tmg/Projects/mauiworkshop/mauiworkshop/obj/Debug/net8.0-ios/resizetizer/sp/splash_FD93FBFAB6638381300AA442F29259671B4FAC57E95B188FE3F3903BEFEADC46@2x.png" />
+    <BundleResource Include="/Users/tmg/Projects/mauiworkshop/mauiworkshop/obj/Debug/net8.0-ios/resizetizer/sp/splash_FD93FBFAB6638381300AA442F29259671B4FAC57E95B188FE3F3903BEFEADC46@3x.png" />
+    <BundleResource Include="/Users/tmg/Projects/mauiworkshop/mauiworkshop/obj/Debug/net8.0-ios/resizetizer/r/dotnet_bot.png" />
+    <BundleResource Include="/Users/tmg/Projects/mauiworkshop/mauiworkshop/obj/Debug/net8.0-ios/resizetizer/r/dotnet_bot@2x.png" />
+    <BundleResource Include="/Users/tmg/Projects/mauiworkshop/mauiworkshop/obj/Debug/net8.0-ios/resizetizer/r/dotnet_bot@3x.png" />
+    <BundleResource Include="/Users/tmg/Projects/mauiworkshop/mauiworkshop/obj/Debug/net8.0-ios/resizetizer/r/Resources/andrew_fuller.jpg" />
+    <BundleResource Include="/Users/tmg/Projects/mauiworkshop/mauiworkshop/obj/Debug/net8.0-ios/resizetizer/r/Resources/anne_dodsworth.jpg" />
+    <BundleResource Include="/Users/tmg/Projects/mauiworkshop/mauiworkshop/obj/Debug/net8.0-ios/resizetizer/r/Resources/janet_leverling.jpg" />
+    <BundleResource Include="/Users/tmg/Projects/mauiworkshop/mauiworkshop/obj/Debug/net8.0-ios/resizetizer/r/Resources/laura_callahan.jpg" />
+    <BundleResource Include="/Users/tmg/Projects/mauiworkshop/mauiworkshop/obj/Debug/net8.0-ios/resizetizer/r/Resources/margaret_peacock.jpg" />
+    <BundleResource Include="/Users/tmg/Projects/mauiworkshop/mauiworkshop/obj/Debug/net8.0-ios/resizetizer/r/Resources/michael_suyama.jpg" />
+    <BundleResource Include="/Users/tmg/Projects/mauiworkshop/mauiworkshop/obj/Debug/net8.0-ios/resizetizer/r/Resources/nancy_davolio.jpg" />
+    <BundleResource Include="/Users/tmg/Projects/mauiworkshop/mauiworkshop/obj/Debug/net8.0-ios/resizetizer/r/Resources/robert_king.jpg" />
+    <BundleResource Include="/Users/tmg/Projects/mauiworkshop/mauiworkshop/obj/Debug/net8.0-ios/resizetizer/r/Resources/steven_buchanan.jpg" />
+    <BundleResource Include="obj/Debug/net8.0-ios/resizetizer/f/OpenSans-Regular.ttf" />
+    <BundleResource Include="obj/Debug/net8.0-ios/resizetizer/f/OpenSans-Semibold.ttf" />
+  </ItemGroup>
+</Project>

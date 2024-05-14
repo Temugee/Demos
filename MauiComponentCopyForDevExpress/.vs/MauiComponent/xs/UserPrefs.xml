@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="../WebApplication1/WebApplication1CopyForMaui/Controllers/InfoController.cs">
+    <Files>
+      <File FileName="MauiComponent/Pages/Index.razor" />
+      <File FileName="../WebApplication1/WebApplication1CopyForMaui/WeatherForecast.cs" />
+      <File FileName="MauiComponent/Pages/ItemForm.razor" />
+      <File FileName="MauiComponent/Pages/ItemList.razor" />
+      <File FileName="MauiComponent/Shared/SurveyPrompt.razor" />
+      <File FileName="../WebApplication1/WebApplication1CopyForMaui/Controllers/InfoController.cs" Line="56" Column="1" />
+      <File FileName="MauiComponent/MauiComponent.csproj" />
+      <File FileName="MauiComponent/Pages/FetchData.razor" />
+      <File FileName="MauiComponent/App.xaml" />
+      <File FileName="MauiComponent/MainPage.xaml" Line="16" Column="1" />
+      <File FileName="MauiComponent/MainPage.xaml.cs" />
+      <File FileName="../WebApplication1/WebApplication1CopyForMaui/WebApplication1.csproj" Line="7" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MauiComponent" expanded="True">
+            <Node name="MauiComponent" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="WebApplication1" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="InfoController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.761B28CE-1F8F-435A-8271-704EC2159861" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WebApplication1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{F525D66A-BBD6-4BEE-96DC-F773B77BFECD}" ItemName="MauiComponent" ConfigurationId="Default" />
+        <StartupItem ItemId="{AF8A74F1-4925-41FB-9932-6FD55D041335}" ItemName="WebApplication1" ConfigurationId="http" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.MauiComponent PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.761B28CE-1F8F-435A-8271-704EC2159861" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

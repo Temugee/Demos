@@ -1,0 +1,62 @@
+﻿@page "/todoapp"
+@using System.Text.Json
+@inject IJSRuntime JsRuntime
+<h3>TodoApp</h3>
+<p>
+    <input @bind="newNotes"/>&nbsp;
+    <button @onclick="addNewNotes">Add Notes</button>
+</p>
+@foreach(var note in notes)
+{
+        <p>
+            <b>@note.description</b>
+            <button @onclick="()=>deleteNotes(note.id)">Delete Notes</button>
+        </p>
+}
+
+@code {
+    public string newNotes = "";
+    public class Notes
+    {
+        public int id { get; set; }
+        public string description { get; set; }
+    }
+    string API_URL = "http://localhost:5070/";
+    private IEnumerable<Notes> notes = Array.Empty<Notes>();
+    private async Task refreshList()
+    {
+        HttpClient httpClient = new HttpClient();
+        HttpResponseMessage response = await httpClient.GetAsync(API_URL + "api/todoapp/GetNotes");
+        httpClient.Dispose();
+        using var responseStream = await response.Content.ReadAsStreamAsync();
+        notes = await JsonSerializer.DeserializeAsync<IEnumerable<Notes>>(responseStream);
+    }
+    private async Task addNewNotes()
+    {
+        var formData = new MultipartFormDataContent();
+        formData.Add(new StringContent(newNotes), "newNotes");
+        HttpClient httpClient = new HttpClient();
+        HttpResponseMessage response = await httpClient.PostAsync(API_URL + "api/todoapp/AddNotes",formData);
+        httpClient.Dispose();
+        using var responseStream = await response.Content.ReadAsStreamAsync();
+        string res = response.Content.ReadAsStringAsync().Result;
+        await JsRuntime.InvokeVoidAsync("alert", res);
+        await this.refreshList();
+    }
+    private async Task deleteNotes(int id)
+    {
+        
+        HttpClient httpClient = new HttpClient();
+        HttpResponseMessage response = await httpClient.DeleteAsync(API_URL + "api/todoapp/DeleteNotes?id="+id);
+        httpClient.Dispose();
+        using var responseStream = await response.Content.ReadAsStreamAsync();
+        string res = response.Content.ReadAsStringAsync().Result;
+        await JsRuntime.InvokeVoidAsync("alert", res);
+        await this.refreshList();
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        await this.refreshList();
+    }
+}
+

@@ -1,0 +1,60 @@
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WebApplication1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApplication1/Properties/launchSettings.json">
+    <Files>
+      <File FileName="BlazorApp1/Program.cs" Line="15" Column="38" IsPinned="True" />
+      <File FileName="WebApplication1/appsettings.json" Line="3" Column="1" IsPinned="True" />
+      <File FileName="WebApplication1/Program.cs" />
+      <File FileName="WebApplication1/Controllers/TodoAppController.cs" />
+      <File FileName="BlazorApp1/Pages/TodoApp.razor" />
+      <File FileName="BlazorApp1/Shared/NavMenu.razor" />
+      <File FileName="BlazorApp1/Pages/FetchData.razor" />
+      <File FileName="WebApplication1/Controllers/InfoController.cs" />
+      <File FileName="WebApplication1/Controllers/WeatherForecastController.cs" />
+      <File FileName="WebApplication1/WeatherForecast.cs" />
+      <File FileName="WebApplication1/Controllers/SaleDbContext.cs" />
+      <File FileName="WebApplication1/Properties/launchSettings.json" Line="20" Column="32" />
+      <File FileName="WebApplication1/bin/Debug/net7.0/appsettings.json" />
+      <File FileName="BlazorApp1/Shared/SurveyPrompt.razor" />
+      <File FileName="BlazorApp1/Pages/Index.razor" />
+      <File FileName="BlazorApp1/Pages/ItemList.razor" />
+      <File FileName="BlazorApp1/Pages/ItemForm.razor" />
+      <File FileName="BlazorApp1/Data/WeatherForecast.cs" />
+      <File FileName="BlazorApp1/Data/WeatherForecastService.cs" />
+      <File FileName="BlazorApp1/Pages/_Host.cshtml" />
+      <File FileName="../../../../usr/local/share/dotnet/sdk/7.0.312/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.FrameworkReferenceResolution.targets" />
+      <File FileName="BlazorApp1/Properties/launchSettings.json" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebApplication1" expanded="True">
+            <Node name="BlazorApp1" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="WebApplication1" expanded="True">
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <DisabledProjects>
+    <String>../MauiApi/MauiApi/MauiApi.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.BlazorApp1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{F09F3A46-DA33-4918-8490-BFF35662EAFF}" ItemName="BlazorApp1" ConfigurationId="http" />
+        <StartupItem ItemId="{0DC30E6C-D30E-4480-8013-AD2189AB3DB1}" ItemName="WebApplication1" ConfigurationId="http" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

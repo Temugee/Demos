@@ -1,0 +1,12 @@
+/Users/tmg/Projects/BlazerWebApp/BlazerWebApp/Shared/bin/Debug/net7.0/BlazerWebApp.Shared.deps.json
+/Users/tmg/Projects/BlazerWebApp/BlazerWebApp/Shared/bin/Debug/net7.0/BlazerWebApp.Shared.dll
+/Users/tmg/Projects/BlazerWebApp/BlazerWebApp/Shared/bin/Debug/net7.0/BlazerWebApp.Shared.pdb
+/Users/tmg/Projects/BlazerWebApp/BlazerWebApp/Shared/obj/Debug/net7.0/BlazerWebApp.Shared.csproj.AssemblyReference.cache
+/Users/tmg/Projects/BlazerWebApp/BlazerWebApp/Shared/obj/Debug/net7.0/BlazerWebApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tmg/Projects/BlazerWebApp/BlazerWebApp/Shared/obj/Debug/net7.0/BlazerWebApp.Shared.AssemblyInfoInputs.cache
+/Users/tmg/Projects/BlazerWebApp/BlazerWebApp/Shared/obj/Debug/net7.0/BlazerWebApp.Shared.AssemblyInfo.cs
+/Users/tmg/Projects/BlazerWebApp/BlazerWebApp/Shared/obj/Debug/net7.0/BlazerWebApp.Shared.csproj.CoreCompileInputs.cache
+/Users/tmg/Projects/BlazerWebApp/BlazerWebApp/Shared/obj/Debug/net7.0/BlazerWebApp.Shared.dll
+/Users/tmg/Projects/BlazerWebApp/BlazerWebApp/Shared/obj/Debug/net7.0/refint/BlazerWebApp.Shared.dll
+/Users/tmg/Projects/BlazerWebApp/BlazerWebApp/Shared/obj/Debug/net7.0/BlazerWebApp.Shared.pdb
+/Users/tmg/Projects/BlazerWebApp/BlazerWebApp/Shared/obj/Debug/net7.0/ref/BlazerWebApp.Shared.dll

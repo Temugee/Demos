@@ -1,0 +1,62 @@
+﻿@page "/info/itemcreate"
+@page "/info/itemedit/{itemPkId}"
+@using BlazerWebApp.Shared
+@inject HttpClient Http
+@inject NavigationManager navigationManager
+<div style="width:60%;">
+    <EditForm Model="item" OnValidSubmit="a=>SaveEmployee()">
+        <DataAnnotationsValidator />
+        <div class="row mb-3">
+            <label for="inputCode" class="col-sm-2 col-form-label">Код</label>
+            <div class="col-sm-10">
+                <InputText type="text" class="form-control" id="Id" @bind-Value="@item.Id" />
+                <ValidationMessage For="@(() => item.Id)" />
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputName" class="col-sm-2 col-form-label">Нэр</label>
+            <div class="col-sm-10">
+                <InputText type="text" class="form-control" id="Name" @bind-Value="@item.Name" />
+                <ValidationMessage For="@(() => item.Name)" />
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputName" class="col-sm-2 col-form-label">Бар код</label>
+            <div class="col-sm-10">
+                <InputText type="text" class="form-control" id="Barcode" @bind-Value="@item.Barcode" />
+                <ValidationMessage For="@(() => item.Barcode)" />
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputName" class="col-sm-2 col-form-label">Үнэ</label>
+            <div class="col-sm-10">
+                <InputNumber type="text" class="form-control" id="Price" @bind-Value="@item.Price" />
+                <ValidationMessage For="@(() => item.Price)" />
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">
+            @(string.IsNullOrEmpty(itemPkId) ? "Save" :
+"Update")
+        </button>
+    </EditForm>
+</div>
+@code {
+    private Item item = new Item();
+    [Parameter] public string itemPkId { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        if (!string.IsNullOrEmpty(itemPkId))
+            item = await Http.GetFromJsonAsync<Item>($"/api/info/getitem/{itemPkId}");
+    }
+    private async Task SaveEmployee()
+    {
+        if (string.IsNullOrEmpty(itemPkId))
+            item.PkId = Guid.NewGuid().ToString();
+        var result = await Http.PostAsJsonAsync(string.IsNullOrEmpty(itemPkId) ? "/api/info/saveitem" :
+       "/api/info/updateitem", item);
+        if (result != null && result.StatusCode == System.Net.HttpStatusCode.OK)
+        {
+            navigationManager.NavigateTo("info/itemlist");
+        }
+    }
+}

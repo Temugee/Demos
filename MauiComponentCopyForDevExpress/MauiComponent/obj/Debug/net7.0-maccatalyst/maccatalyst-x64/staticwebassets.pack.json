@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/tmg/Projects/MauiComponentCopyForDevExpress/MauiComponent/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/scopedcss/bundle/MauiComponent.styles.css",
+      "PackagePath": "staticwebassets/MauiComponent.styles.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/MauiComponentCopyForDevExpress/MauiComponent/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/MauiComponentCopyForDevExpress/MauiComponent/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/MauiComponentCopyForDevExpress/MauiComponent/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/tmg/Projects/MauiComponentCopyForDevExpress/MauiComponent/wwwroot/css/open-iconic/FONT-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/Users/tmg/Projects/MauiComponentCopyForDevExpress/MauiComponent/wwwroot/css/open-iconic/ICON-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/Users/tmg/Projects/MauiComponentCopyForDevExpress/MauiComponent/wwwroot/css/open-iconic/README.md",
+      "PackagePath": "staticwebassets/css/open-iconic/README.md"
+    },
+    {
+      "Id": "/Users/tmg/Projects/MauiComponentCopyForDevExpress/MauiComponent/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/tmg/Projects/MauiComponentCopyForDevExpress/MauiComponent/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.eot"
+    },
+    {
+      "Id": "/Users/tmg/Projects/MauiComponentCopyForDevExpress/MauiComponent/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.otf"
+    },
+    {
+      "Id": "/Users/tmg/Projects/MauiComponentCopyForDevExpress/MauiComponent/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.svg"
+    },
+    {
+      "Id": "/Users/tmg/Projects/MauiComponentCopyForDevExpress/MauiComponent/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.ttf"
+    },
+    {
+      "Id": "/Users/tmg/Projects/MauiComponentCopyForDevExpress/MauiComponent/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
+    },
+    {
+      "Id": "/Users/tmg/Projects/MauiComponentCopyForDevExpress/MauiComponent/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/tmg/Projects/MauiComponentCopyForDevExpress/MauiComponent/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net7.0-maccatalyst/maccatalyst-x64/staticwebassets/msbuild.MauiComponent.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0-maccatalyst/maccatalyst-x64/staticwebassets/msbuild.build.MauiComponent.props",
+      "PackagePath": "build\\MauiComponent.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0-maccatalyst/maccatalyst-x64/staticwebassets/msbuild.buildMultiTargeting.MauiComponent.props",
+      "PackagePath": "buildMultiTargeting\\MauiComponent.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0-maccatalyst/maccatalyst-x64/staticwebassets/msbuild.buildTransitive.MauiComponent.props",
+      "PackagePath": "buildTransitive\\MauiComponent.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

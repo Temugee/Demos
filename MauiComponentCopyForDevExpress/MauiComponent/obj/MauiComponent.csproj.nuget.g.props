@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/tmg/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/tmg/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.4.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/Users/tmg/.nuget/packages/" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == '' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)devexpress.blazor.themes/23.2.3/buildMultiTargeting/DevExpress.Blazor.Themes.props" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor.themes/23.2.3/buildMultiTargeting/DevExpress.Blazor.Themes.props')" />
+    <Import Project="$(NuGetPackageRoot)devexpress.blazor/23.2.3/buildMultiTargeting/DevExpress.Blazor.props" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor/23.2.3/buildMultiTargeting/DevExpress.Blazor.props')" />
+  </ImportGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net7.0-android' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.net.illink.tasks/7.0.100-1.23211.1/build/Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.tasks/7.0.100-1.23211.1/build/Microsoft.NET.ILLink.Tasks.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.illink.analyzers/7.0.100-1.23211.1/build/Microsoft.NET.ILLink.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.analyzers/7.0.100-1.23211.1/build/Microsoft.NET.ILLink.Analyzers.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui/7.0.101/build/Microsoft.AspNetCore.Components.WebView.Maui.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui/7.0.101/build/Microsoft.AspNetCore.Components.WebView.Maui.props')" />
+    <Import Project="$(NuGetPackageRoot)devexpress.blazor.themes/23.2.3/buildTransitive/DevExpress.Blazor.Themes.props" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor.themes/23.2.3/buildTransitive/DevExpress.Blazor.Themes.props')" />
+    <Import Project="$(NuGetPackageRoot)devexpress.blazor/23.2.3/buildTransitive/net5.0/DevExpress.Blazor.props" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor/23.2.3/buildTransitive/net5.0/DevExpress.Blazor.props')" />
+  </ImportGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net7.0-ios' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.net.illink.tasks/7.0.100-1.23211.1/build/Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.tasks/7.0.100-1.23211.1/build/Microsoft.NET.ILLink.Tasks.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.illink.analyzers/7.0.100-1.23211.1/build/Microsoft.NET.ILLink.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.analyzers/7.0.100-1.23211.1/build/Microsoft.NET.ILLink.Analyzers.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui/7.0.101/build/Microsoft.AspNetCore.Components.WebView.Maui.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui/7.0.101/build/Microsoft.AspNetCore.Components.WebView.Maui.props')" />
+    <Import Project="$(NuGetPackageRoot)devexpress.blazor.themes/23.2.3/buildTransitive/DevExpress.Blazor.Themes.props" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor.themes/23.2.3/buildTransitive/DevExpress.Blazor.Themes.props')" />
+    <Import Project="$(NuGetPackageRoot)devexpress.blazor/23.2.3/buildTransitive/net5.0/DevExpress.Blazor.props" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor/23.2.3/buildTransitive/net5.0/DevExpress.Blazor.props')" />
+  </ImportGroup>
+  <ImportGroup Condition=" '$(TargetFramework)' == 'net7.0-maccatalyst' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.net.illink.tasks/7.0.100-1.23211.1/build/Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.tasks/7.0.100-1.23211.1/build/Microsoft.NET.ILLink.Tasks.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.illink.analyzers/7.0.100-1.23211.1/build/Microsoft.NET.ILLink.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.analyzers/7.0.100-1.23211.1/build/Microsoft.NET.ILLink.Analyzers.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui/7.0.101/build/Microsoft.AspNetCore.Components.WebView.Maui.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui/7.0.101/build/Microsoft.AspNetCore.Components.WebView.Maui.props')" />
+    <Import Project="$(NuGetPackageRoot)devexpress.blazor.themes/23.2.3/buildTransitive/DevExpress.Blazor.Themes.props" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor.themes/23.2.3/buildTransitive/DevExpress.Blazor.Themes.props')" />
+    <Import Project="$(NuGetPackageRoot)devexpress.blazor/23.2.3/buildTransitive/net5.0/DevExpress.Blazor.props" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor/23.2.3/buildTransitive/net5.0/DevExpress.Blazor.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net7.0-android' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">/Users/tmg/.nuget/packages/microsoft.net.illink.tasks/7.0.100-1.23211.1</PkgMicrosoft_NET_ILLink_Tasks>
+    <PkgDevExpress_Data Condition=" '$(PkgDevExpress_Data)' == '' ">/Users/tmg/.nuget/packages/devexpress.data/23.2.3</PkgDevExpress_Data>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net7.0-ios' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">/Users/tmg/.nuget/packages/microsoft.net.illink.tasks/7.0.100-1.23211.1</PkgMicrosoft_NET_ILLink_Tasks>
+    <PkgDevExpress_Data Condition=" '$(PkgDevExpress_Data)' == '' ">/Users/tmg/.nuget/packages/devexpress.data/23.2.3</PkgDevExpress_Data>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net7.0-maccatalyst' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">/Users/tmg/.nuget/packages/microsoft.net.illink.tasks/7.0.100-1.23211.1</PkgMicrosoft_NET_ILLink_Tasks>
+    <PkgDevExpress_Data Condition=" '$(PkgDevExpress_Data)' == '' ">/Users/tmg/.nuget/packages/devexpress.data/23.2.3</PkgDevExpress_Data>
+  </PropertyGroup>
+</Project>

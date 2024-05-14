@@ -1,0 +1,99 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = PhoneShopClient
+build_property.RootNamespace = PhoneShopClient
+build_property.ProjectDir = /Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/Layout/NavigationBar.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdmlnYXRpb25CYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/Layout/SearchComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L1NlYXJjaENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/Pages/CategoryPages/AddCategoryPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcnlQYWdlcy9BZGRDYXRlZ29yeVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/Pages/CategoryPages/CategoriesPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcnlQYWdlcy9DYXRlZ29yaWVzUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/Pages/OtherPages/BusyButtonComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3RoZXJQYWdlcy9CdXN5QnV0dG9uQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/Pages/OtherPages/LoadingPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3RoZXJQYWdlcy9Mb2FkaW5nUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/Pages/OtherPages/MessageDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3RoZXJQYWdlcy9NZXNzYWdlRGlhbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/Pages/ProductPages/AddOrUpdateProductComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdFBhZ2VzL0FkZE9yVXBkYXRlUHJvZHVjdENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/Pages/ProductPages/BannerPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdFBhZ2VzL0Jhbm5lclBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/Pages/ProductPages/FeaturedProductComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdFBhZ2VzL0ZlYXR1cmVkUHJvZHVjdENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/Pages/ProductPages/FrontPageComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdFBhZ2VzL0Zyb250UGFnZUNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/Pages/ProductPages/ProductListHomePage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdFBhZ2VzL1Byb2R1Y3RMaXN0SG9tZVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/Pages/ProductPages/RecommendedPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdFBhZ2VzL1JlY29tbWVuZGVkUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-vybkw78fmj
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-w61p2y7qu6
+
+[/Users/tmg/Projects/Ecommerce-Deploy-testing/PhoneShopClient/Pages/ProductPages/ProductListPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdFBhZ2VzL1Byb2R1Y3RMaXN0UGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-hw4p4k356h

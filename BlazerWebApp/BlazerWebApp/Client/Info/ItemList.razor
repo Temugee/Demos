@@ -1,0 +1,85 @@
+﻿@page "/info/itemlist"
+@using BlazerWebApp.Shared
+@inject HttpClient Http
+@inject IJSRuntime JsRuntime
+
+<h3>Барааны жагсаалт</h3>
+<h4 style="color: blue;">
+    <a href="/info/itemcreate">Нэмэх</a>
+</h4>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Код</th>
+            <th>Нэр</th>
+            <th>Бар код</th>
+            <th>Үнэ</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (items == null || items.Length == 0)
+        {
+            <tr>
+                <td colspan="6" align="center">Хоосон байна</td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var item in items)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Barcode</td>
+                    <td>@item.Price.ToString("##,##0")</td>
+                    <td>
+                        <a href="@GetEditItemUrl(item)" class="btn btn-primary">
+                            Засах
+                        </a>
+                    </td>
+                    <td>
+                        <button class="btn btn-danger" @onclick="_ => DeleteItem(item)">
+                            Устгах
+                        </button>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+@code {
+    private Item[]? items;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetItems();
+    }
+
+    private async Task GetItems()
+    {
+        items = await Http.GetFromJsonAsync<Item[]>("/api/info/getitems");
+    }
+
+    private async Task DeleteItem(Item item)
+    {
+        bool confirmed = await JsRuntime.InvokeAsync<bool>("confirm", $"{item.Id} - кодтой барааг устгахдаа итгэлтэй байна уу?");
+        if (confirmed)
+        {
+            var result = await Http.DeleteAsync($"/api/info/deleteitem/{item.PkId}");
+            if (result != null && result.StatusCode == System.Net.HttpStatusCode.OK)
+            {
+                await GetItems();
+                StateHasChanged();
+            }
+        }
+    }
+
+    private string GetEditItemUrl(Item item)
+    {
+        return $"/info/itemedit/{item.PkId}";
+    }
+}
